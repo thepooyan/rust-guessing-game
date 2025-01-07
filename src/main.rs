@@ -1,3 +1,6 @@
+mod game;
+mod util;
+
 fn main() {
-    println!("Hello, world!");
+    game::Game::new().start();
 }
